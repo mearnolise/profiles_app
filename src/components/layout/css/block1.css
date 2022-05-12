@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.body-block1{
+    margin: 3rem;
+    display: grid;
+    grid-template-areas:'pic text text text';
+    gap: 10px;
+    height: 80%;
+}
+.pic-container{
+    grid-area: pic;
+    width: fit-content;
+    margin: auto;
+}
+
+.face-pic{
+    border-radius: 50%;
+    height: 350px;
+
+}
+
+.text-container{
+    grid-area: text;
+    margin: 2rem;
+    font-family: 'Bitter', serif;
+
+}
+
+

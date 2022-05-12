@@ -1,4 +1,4 @@
-import {FaFacebook,FaGoogle} from 'react-icons/fa'
+import {FaFacebook,FaGoogle,FaGithub} from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -6,9 +6,12 @@ function Footer() {
     <div className='footer-icon-container'>
         <FaFacebook className='footer-icon'/>
         <FaGoogle className='footer-icon' />
+        <FaGithub className='footer-icon' />
     </div>
     <div>
-      <p>No Copyright &copy; All right use</p>
+      <div className='footer-text-container'>
+        <p className='footer-text'>No Copyright &copy; All right use</p>
+      </div>
     </div>
     </div>
   )

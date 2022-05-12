@@ -1,0 +1,38 @@
+.body-block2 {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 3rem;
+    justify-content: space-around;
+}
+
+.school-container{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+.backside{
+    flex-direction: row-reverse;
+}
+.school-img-container{
+    margin: 1rem;
+}
+.img-school{
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+/*overflow: hidden;
+white-space: nowrap;
+*/
+.school-text{
+    padding: 0.1rem;
+    width: 100%;
+    text-align:start;
+    
+}
+.text-backside{
+    text-align: end;
+}

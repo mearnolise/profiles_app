@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.body-block3 {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: 20px 20px;
+    position: relative;
+
+}
+.header-text-block3{
+    margin: 1px auto;
+    background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5), 5px 5px 5px rgba(0,0,0,.4), 8px 8px 8px rgba(0,0,0,.1);
+    height: 25%;
+}
+
+.body-text-block3{
+    height: 75%;
+    display: grid;
+    grid-template-areas:
+    'g-box1 g-box2'
+    'g-box3 g-box4';
+    gap: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.body-qrcode{
+    height: 80%;
+    text-align: center;
+}
+
+.qr-img{
+    height: 100%;
+}
+
+.back-icon {
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.body-component-block{
+    margin: 30px;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+.pic-block{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon-pic{
+    width: 90px;
+    height: 55px;
+}

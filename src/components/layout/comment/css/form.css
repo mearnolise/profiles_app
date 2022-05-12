@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.form-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1.5rem 0rem;
+}
+
+.form-input-box {
+  width: 90%;
+  height: 30px;
+  margin-right:1rem ;
+  margin-left: 2rem;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+
+}
+.button-form {
+  height: 30px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+}
+
+.text-box-container {
+  margin-top: 50px;
+}
+
+.button-form:disabled {
+  background-color: #cccccc;
+  color: #333;
+  cursor: auto;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 30px 30px;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+}
+
+.edit {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
